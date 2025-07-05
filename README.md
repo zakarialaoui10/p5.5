@@ -23,13 +23,13 @@
 ### USAGE: &nbsp;<span style="font-size: 0.5em; font-weight: 400;">(see examples)
 
 1. In the index.html file, add the p5.5.js library after the p5.js library
-    ```
+    ```html
     <script defer src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js">
     <script defer src="https://cdn.jsdelivr.net/gh/eltapir/p5.5@master/dist/p5.5.min.js"></script>
     ```
 
 2. Create an artwork.js file and add it in the html file after the p5.5.js script
-    ```
+    ```html
     <script defer src="artwork.js"></script>
     ```
 
@@ -42,7 +42,7 @@
    <br>
    parameter #2:
    The resolution (ppi) of your png file when saving the canvas. If left out or 0 (zero) the resolution will be equal to your screen resolution.
-    ```
+    ```js
     p5.initMetrics(16, 300);
     ```
 
@@ -54,7 +54,7 @@
 
    (for a list of options, see below)
 
-    ```
+    ```js
     p5.initMetrics(16, 300);
 
     function setup() {
